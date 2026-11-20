@@ -50,5 +50,3 @@ def test_invalid_type_marks_raises_type_error(mark_one, mark_two):
     # Arrange, Act & Assert
     with pytest.raises(TypeError):
         calculate_average(mark_one, mark_two)
-
-# Test push to GitHub
