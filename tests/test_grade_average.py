@@ -9,7 +9,7 @@ from src.grade_average import calculate_average
         (100, 100, 100.0),
         (0, 100, 50.0),
         (80, 90, 85.0),
-        (50, 51, 50.5),  # Exposes defect: // 2 returns 50 instead of 50.5
+        (50, 51, 50.5),
     ],
 )
 def test_valid_marks_returns_expected_average(mark_one, mark_two, expected):

@@ -7,7 +7,7 @@ from src.grade_pass import has_passed
     [
         (0, False),
         (49, False),
-        (50, True),  # Exposes defect: > 50 returns False instead of True
+        (50, True),  
         (75, True),
         (100, True),
     ],
