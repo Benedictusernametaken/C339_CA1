@@ -32,3 +32,5 @@ def test_invalid_type_score_raises_type_error(score):
     # Arrange, Act & Assert
     with pytest.raises(TypeError):
         has_passed(score)
+
+# Test push
